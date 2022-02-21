@@ -95,6 +95,7 @@ a {
   flex-direction: column;
   margin: 1em 12em;
   text-align: center;
+  font-size: 1.2em;
 }
 .info h2 {
   margin: 1.5em 0;

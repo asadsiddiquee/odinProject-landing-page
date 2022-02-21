@@ -1,0 +1,156 @@
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* container */
+.container {
+  font-family: serif;
+}
+/* top hero and navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  background-color: #050000;
+  color: #f9faf8;
+}
+.navbar {
+  margin: 1em 8em;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  list-style: none;
+  padding: 0.3em 0.7em;
+}
+.nav li a {
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+.nav ul li a:hover {
+  color: black;
+  background-color: #fff;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  margin: 1em 8em;
+  height: 300px;
+  align-items: center;
+}
+.hero-content-left {
+  margin-right: 1.5em;
+}
+
+.hero-content-left h2 {
+  margin-bottom: 0.7em;
+}
+
+.hero-content-left h2 {
+  font-size: 45px;
+}
+.hero-content-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.logo a {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* button */
+.btn {
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 0.5em 1.5em;
+  border-style: none;
+  margin: 1em 0;
+  font-size: 1em;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #1c6ff5;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 12em;
+  text-align: center;
+}
+.info h2 {
+  margin: 1.5em 0;
+}
+
+.card-collection {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.card {
+  width: 250px;
+}
+
+.card img {
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  background-color: rgb(189, 189, 189);
+}
+
+.code q {
+  font-size: 48px;
+  margin-bottom: 1em;
+}
+.code p {
+  font-size: 2em;
+  text-align: end;
+  padding-right: 6em;
+}
+
+.reboot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.reboot h3 {
+  font-size: 48px;
+}
+
+footer {
+  height: 30px;
+  text-align: center;
+  background-color: black;
+  color: #e5e7eb;
+}
